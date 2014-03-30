@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		530A0ED811FBCC8D00CEEC31 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530A0ED711FBCC8D00CEEC31 /* Cocoa.framework */; };
-		530A0EDD11FBCC8D00CEEC31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530A0EDB11FBCC8D00CEEC31 /* InfoPlist.strings */; };
-		530A0EDF11FBCC8D00CEEC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530A0EDE11FBCC8D00CEEC31 /* main.m */; };
 		530A0EE211FBCC8D00CEEC31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530A0EE011FBCC8D00CEEC31 /* MainMenu.xib */; };
-		530A0EE511FBCC8D00CEEC31 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 530A0EE311FBCC8D00CEEC31 /* Credits.rtf */; };
 		530A0EE811FBCC8D00CEEC31 /* UsageExtraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530A0EE711FBCC8D00CEEC31 /* UsageExtraAppDelegate.m */; };
 		7B3E09E718E5F4C200FDE227 /* CPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E09E618E5F4C200FDE227 /* CPUMonitor.m */; };
 /* End PBXBuildFile section */
@@ -21,14 +18,11 @@
 		530A0ED711FBCC8D00CEEC31 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		530A0ED911FBCC8D00CEEC31 /* UsageExtra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsageExtra-Info.plist"; sourceTree = "<group>"; };
 		530A0EDA11FBCC8D00CEEC31 /* UsageExtra_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsageExtra_Prefix.pch; sourceTree = "<group>"; };
-		530A0EDC11FBCC8D00CEEC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		530A0EDE11FBCC8D00CEEC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		530A0EE111FBCC8D00CEEC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		530A0EE411FBCC8D00CEEC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		530A0EE611FBCC8D00CEEC31 /* UsageExtraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsageExtraAppDelegate.h; sourceTree = "<group>"; };
-		530A0EE711FBCC8D00CEEC31 /* UsageExtraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsageExtraAppDelegate.m; sourceTree = "<group>"; };
-		7B3E09E518E5F4C200FDE227 /* CPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUMonitor.h; sourceTree = "<group>"; };
-		7B3E09E618E5F4C200FDE227 /* CPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUMonitor.m; sourceTree = "<group>"; };
+		530A0EE611FBCC8D00CEEC31 /* UsageExtraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UsageExtraAppDelegate.h; path = Classes/UsageExtraAppDelegate.h; sourceTree = "<group>"; };
+		530A0EE711FBCC8D00CEEC31 /* UsageExtraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UsageExtraAppDelegate.m; path = Classes/UsageExtraAppDelegate.m; sourceTree = "<group>"; };
+		7B3E09E518E5F4C200FDE227 /* CPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPUMonitor.h; path = Classes/CPUMonitor.h; sourceTree = "<group>"; };
+		7B3E09E618E5F4C200FDE227 /* CPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPUMonitor.m; path = Classes/CPUMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,41 +40,22 @@
 		530A0EC511FBCC8C00CEEC31 = {
 			isa = PBXGroup;
 			children = (
-				530A0ECC11FBCC8C00CEEC31 /* Classes */,
-				530A0ECD11FBCC8C00CEEC31 /* Other Sources */,
-				530A0ECE11FBCC8C00CEEC31 /* Resources */,
-				530A0ECF11FBCC8C00CEEC31 /* Frameworks */,
-				530A0ED511FBCC8D00CEEC31 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		530A0ECC11FBCC8C00CEEC31 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
 				530A0EE611FBCC8D00CEEC31 /* UsageExtraAppDelegate.h */,
 				530A0EE711FBCC8D00CEEC31 /* UsageExtraAppDelegate.m */,
 				7B3E09E518E5F4C200FDE227 /* CPUMonitor.h */,
 				7B3E09E618E5F4C200FDE227 /* CPUMonitor.m */,
+				530A0ECE11FBCC8C00CEEC31 /* Resources */,
+				530A0ED511FBCC8D00CEEC31 /* Products */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		530A0ECD11FBCC8C00CEEC31 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				530A0EDA11FBCC8D00CEEC31 /* UsageExtra_Prefix.pch */,
-				530A0EDE11FBCC8D00CEEC31 /* main.m */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 		530A0ECE11FBCC8C00CEEC31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				530A0ECF11FBCC8C00CEEC31 /* Frameworks */,
+				530A0EDA11FBCC8D00CEEC31 /* UsageExtra_Prefix.pch */,
 				530A0ED911FBCC8D00CEEC31 /* UsageExtra-Info.plist */,
-				530A0EDB11FBCC8D00CEEC31 /* InfoPlist.strings */,
 				530A0EE011FBCC8D00CEEC31 /* MainMenu.xib */,
-				530A0EE311FBCC8D00CEEC31 /* Credits.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -151,9 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530A0EDD11FBCC8D00CEEC31 /* InfoPlist.strings in Resources */,
 				530A0EE211FBCC8D00CEEC31 /* MainMenu.xib in Resources */,
-				530A0EE511FBCC8D00CEEC31 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530A0EDF11FBCC8D00CEEC31 /* main.m in Sources */,
 				7B3E09E718E5F4C200FDE227 /* CPUMonitor.m in Sources */,
 				530A0EE811FBCC8D00CEEC31 /* UsageExtraAppDelegate.m in Sources */,
 			);
@@ -173,28 +145,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		530A0EDB11FBCC8D00CEEC31 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				530A0EDC11FBCC8D00CEEC31 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		530A0EE011FBCC8D00CEEC31 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				530A0EE111FBCC8D00CEEC31 /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		530A0EE311FBCC8D00CEEC31 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				530A0EE411FBCC8D00CEEC31 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

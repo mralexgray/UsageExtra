@@ -9,6 +9,7 @@
 }
 
 @property (weak) IBOutlet NSMenu * menu;
+@property (nonatomic)       BOOL   openAtLogin;
 
 - (IBAction)  openActivityMonitor:(id)x;
 - (IBAction)         quitFromMenu:(id)x;
